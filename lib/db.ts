@@ -13,7 +13,7 @@ async function isDbConnected() {
     await Promise.race([
       dbConnect(),
       new Promise((_, reject) =>
-        setTimeout(() => reject(new Error('MongoDB connection timed out')), 3000),
+        setTimeout(() => reject(new Error('MongoDB connection timed out')), 15000),
       ),
     ])
     return true
