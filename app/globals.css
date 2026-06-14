@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0f1e;
+  color: #e2e8f0;
+  font-family: 'JetBrains Mono', monospace, sans-serif;
+}
